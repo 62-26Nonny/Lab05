@@ -1,0 +1,19 @@
+body {
+    transition: background 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+
+body.day_mode {
+    color: black;
+    background-color: white;
+}
+body.night_mode {
+    color: white;
+    background-color: black;
+}
+span.day_mode{
+    color: red;
+}
+span.night_mode {
+    color: blue;
+}
